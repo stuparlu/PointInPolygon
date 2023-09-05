@@ -12,6 +12,7 @@
 		A14DBA462AA7815400D2BD6B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA452AA7815400D2BD6B /* Point.swift */; };
 		A14DBA482AA7815D00D2BD6B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA472AA7815D00D2BD6B /* Line.swift */; };
 		A14DBA4A2AA781EF00D2BD6B /* PolygonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA492AA781EF00D2BD6B /* PolygonUtils.swift */; };
+		A14DBA4E2AA78E1400D2BD6B /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA4D2AA78E1400D2BD6B /* Direction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		A14DBA452AA7815400D2BD6B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		A14DBA472AA7815D00D2BD6B /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		A14DBA492AA781EF00D2BD6B /* PolygonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonUtils.swift; sourceTree = "<group>"; };
+		A14DBA4D2AA78E1400D2BD6B /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				A14DBA452AA7815400D2BD6B /* Point.swift */,
 				A14DBA472AA7815D00D2BD6B /* Line.swift */,
+				A14DBA4D2AA78E1400D2BD6B /* Direction.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				A14DBA3D2AA773CC00D2BD6B /* main.swift in Sources */,
 				A14DBA4A2AA781EF00D2BD6B /* PolygonUtils.swift in Sources */,
 				A14DBA462AA7815400D2BD6B /* Point.swift in Sources */,
+				A14DBA4E2AA78E1400D2BD6B /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,12 @@ import Foundation
 
 
 let (pointToCheck, polygonPoints) = getUserInput()
-isPolygon(points: polygonPoints)
-isConvex(points: polygonPoints)
+if isPolygon(points: polygonPoints) {
+    if isConvex(points: polygonPoints) {
+        if isPointInside(point: pointToCheck, polygon: polygonPoints) {
+            print("The point is inside the polygon.")
+        } else {
+            print("The point is not inside the polygon.")
+        }
+    }
+}
