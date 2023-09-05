@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A14DBA3D2AA773CC00D2BD6B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA3C2AA773CC00D2BD6B /* main.swift */; };
+		A14DBA442AA7814700D2BD6B /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA432AA7814700D2BD6B /* Inputs.swift */; };
+		A14DBA462AA7815400D2BD6B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA452AA7815400D2BD6B /* Point.swift */; };
+		A14DBA482AA7815D00D2BD6B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA472AA7815D00D2BD6B /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		A14DBA392AA773CC00D2BD6B /* LillyTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LillyTask; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14DBA3C2AA773CC00D2BD6B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A14DBA432AA7814700D2BD6B /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		A14DBA452AA7815400D2BD6B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		A14DBA472AA7815D00D2BD6B /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		A14DBA3B2AA773CC00D2BD6B /* LillyTask */ = {
 			isa = PBXGroup;
 			children = (
+				A14DBA452AA7815400D2BD6B /* Point.swift */,
+				A14DBA472AA7815D00D2BD6B /* Line.swift */,
+				A14DBA432AA7814700D2BD6B /* Inputs.swift */,
 				A14DBA3C2AA773CC00D2BD6B /* main.swift */,
 			);
 			path = LillyTask;
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14DBA442AA7814700D2BD6B /* Inputs.swift in Sources */,
+				A14DBA482AA7815D00D2BD6B /* Line.swift in Sources */,
 				A14DBA3D2AA773CC00D2BD6B /* main.swift in Sources */,
+				A14DBA462AA7815400D2BD6B /* Point.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

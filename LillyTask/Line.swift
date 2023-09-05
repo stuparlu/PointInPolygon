@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Line.swift
 //  LillyTask
 //
 //  Created by Luka Stupar on 5.9.23..
@@ -7,6 +7,7 @@
 
 import Foundation
 
-
-
-let (pointToCheck, polygonPoints) = getUserInput()
+struct Line {
+    let start : Point
+    let end : Point
+}
