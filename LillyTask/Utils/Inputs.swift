@@ -50,6 +50,7 @@ func getUserInput() -> (Point, [Point]) {
             let point = getInputCoordinates(with: "Please enter the coordinates of No.\(i + 1) separated by single comma:")
             points.append(point)
         }
+        points.append(points[0])
         
         let pointToCheck = getInputCoordinates(with: "Please enter the coordinates of the point to check separated by single comma:")
         

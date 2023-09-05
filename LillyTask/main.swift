@@ -8,5 +8,6 @@
 import Foundation
 
 
-
 let (pointToCheck, polygonPoints) = getUserInput()
+isPolygon(points: polygonPoints)
+isConvex(points: polygonPoints)

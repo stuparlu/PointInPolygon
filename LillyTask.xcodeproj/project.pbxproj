@@ -11,6 +11,7 @@
 		A14DBA442AA7814700D2BD6B /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA432AA7814700D2BD6B /* Inputs.swift */; };
 		A14DBA462AA7815400D2BD6B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA452AA7815400D2BD6B /* Point.swift */; };
 		A14DBA482AA7815D00D2BD6B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA472AA7815D00D2BD6B /* Line.swift */; };
+		A14DBA4A2AA781EF00D2BD6B /* PolygonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DBA492AA781EF00D2BD6B /* PolygonUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		A14DBA432AA7814700D2BD6B /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 		A14DBA452AA7815400D2BD6B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		A14DBA472AA7815D00D2BD6B /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		A14DBA492AA781EF00D2BD6B /* PolygonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +65,29 @@
 		A14DBA3B2AA773CC00D2BD6B /* LillyTask */ = {
 			isa = PBXGroup;
 			children = (
-				A14DBA452AA7815400D2BD6B /* Point.swift */,
-				A14DBA472AA7815D00D2BD6B /* Line.swift */,
-				A14DBA432AA7814700D2BD6B /* Inputs.swift */,
+				A14DBA4C2AA7820200D2BD6B /* Data */,
+				A14DBA4B2AA781F500D2BD6B /* Utils */,
 				A14DBA3C2AA773CC00D2BD6B /* main.swift */,
 			);
 			path = LillyTask;
+			sourceTree = "<group>";
+		};
+		A14DBA4B2AA781F500D2BD6B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A14DBA432AA7814700D2BD6B /* Inputs.swift */,
+				A14DBA492AA781EF00D2BD6B /* PolygonUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A14DBA4C2AA7820200D2BD6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A14DBA452AA7815400D2BD6B /* Point.swift */,
+				A14DBA472AA7815D00D2BD6B /* Line.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +151,7 @@
 				A14DBA442AA7814700D2BD6B /* Inputs.swift in Sources */,
 				A14DBA482AA7815D00D2BD6B /* Line.swift in Sources */,
 				A14DBA3D2AA773CC00D2BD6B /* main.swift in Sources */,
+				A14DBA4A2AA781EF00D2BD6B /* PolygonUtils.swift in Sources */,
 				A14DBA462AA7815400D2BD6B /* Point.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
