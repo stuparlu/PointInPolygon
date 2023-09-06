@@ -7,8 +7,7 @@
 
 import Foundation
 
-
-let (pointToCheck, polygonPoints) = getUserInput()
+let (pointToCheck, polygonPoints) = getCommandLineInput() ?? getUserInput()
 if isPolygon(points: polygonPoints) {
     if isConvex(points: polygonPoints) {
         if isPointInside(point: pointToCheck, polygon: polygonPoints) {

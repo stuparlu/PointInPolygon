@@ -15,4 +15,8 @@ struct Point {
         self.x = x
         self.y = y
     }
+    
+    func toString() -> String {
+        return "(\(x),\(y))"
+    }
 }

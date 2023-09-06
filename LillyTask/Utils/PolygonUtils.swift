@@ -12,7 +12,6 @@ func crossProduct(p0: Point, p1: Point, p2 : Point) -> Double {
 }
 
 func isPolygon(points: [Point]) -> Bool {
-    print(points.count)
     for i in 0..<(points.count - 2) {
         if crossProduct(p0: points[i], p1: points[i + 1], p2: points[i + 2]) == 0 {
             print("Error: the shape intersects with itself. Points do not form a polyon.")
@@ -52,8 +51,7 @@ func checkDirection(_ p0: Point, _ p1: Point, _ p2 : Point) -> Direction {
 
 func checkPointOnLine(point: Point, line: Line) -> Bool {
     if point.x <= max(line.start.x, line.end.x) && point.x >= min(line.start.x, line.end.x) &&
-        point.y <= max(line.start.y, line.end.y) && point.y >= min(line.start.y, line.end.y)
-    {
+        point.y <= max(line.start.y, line.end.y) && point.y >= min(line.start.y, line.end.y) {
         return true
     }
     return false
@@ -84,7 +82,6 @@ func isPointInside(point: Point, polygon: [Point]) -> Bool {
     let castLine = Line(start: point, end: Point(999999999, point.y))
     var crossCount = 0
     var i = 0
-    
     while true {
         let side = Line(start: polygon[i], end: polygon[(i + 1) % pointCount])
         if checkLineIntersection(side, castLine) {
