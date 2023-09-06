@@ -55,10 +55,20 @@ func getCommandLineInput() -> (Point, [Point])? {
     return (pointCoordinates, points)
 }
 
+func readInput() -> String? {
+    let userInput = readLine()
+    if let input = userInput {
+        if input == "exit" {
+            exit(0)
+        }
+    }
+    return userInput
+}
+
 func getInputCoordinates(with message: String) -> Point {
     repeat {
         print(message)
-        guard let userInput = readLine() else {
+        guard let userInput = readInput() else {
             print("Input is invalid, please try again.")
             continue
         }
@@ -78,7 +88,7 @@ func getInputCoordinates(with message: String) -> Point {
 func getUserInput() -> (Point, [Point]) {
     repeat {
         print("Please enter the number of points of polygon: ")
-        guard let pointNumber = Int(readLine() ?? "0") else {
+        guard let pointNumber = Int(readInput() ?? "0") else {
             print("Input is invalid, you have to input integer.")
             continue
         }
