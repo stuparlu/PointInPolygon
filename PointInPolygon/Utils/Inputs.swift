@@ -34,14 +34,12 @@ func getCommandLineInput() -> (Point, [Point])? {
         return nil
     }
     var points : [Point] = []
-    for (index, argument) in arguments.enumerated() {
-        if index > 1 {
-            if let point: Point = makePoint(from: argument) {
-                points.append(point)
-            } else {
-                print(invalidMessage)
-                return nil
-            }
+    for i in 2..<(arguments.count - 1) {
+        if let point: Point = makePoint(from: arguments[i]) {
+            points.append(point)
+        } else {
+            print(invalidMessage)
+            return nil
         }
     }
     points.append(points[0])

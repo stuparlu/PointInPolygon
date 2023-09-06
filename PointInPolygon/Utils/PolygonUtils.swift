@@ -8,7 +8,7 @@
 import Foundation
 
 func crossProduct(p0: Point, p1: Point, p2 : Point) -> Double {
-    return (p1.x - p0.x) * (p2.y - p0.y) - (p1.y - p0.y) * (p2.x - p0.x)
+    return (p1.y - p0.y) * (p2.x - p1.x) - (p1.x - p0.x) * (p2.y - p1.y)
 }
 
 func isPolygon(points: [Point]) -> Bool {
@@ -68,7 +68,7 @@ func checkLineIntersection(_ line1: Line, _ line2: Line) -> Bool {
     let condition3 = dir3 == Direction.collinear && checkPointOnLine(point: line1.start, line: line2)
     let condition4 = dir4 == Direction.collinear && checkPointOnLine(point: line1.end, line: line2)
     
-    if dir1 != dir2 && dir3 != dir3 {
+    if (dir1 != dir2) && (dir3 != dir4) {
         return true
     } else if condition1 || condition2 || condition3 || condition4 {
         return true
