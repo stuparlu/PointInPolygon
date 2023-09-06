@@ -12,6 +12,11 @@ func crossProduct(p0: Point, p1: Point, p2 : Point) -> Double {
 }
 
 func isPolygon(points: [Point]) -> Bool {
+    if points.count < 3 {
+        print("Error: there are too few points. Points do not form a polyon.")
+        return false
+    }
+
     for i in 0..<(points.count - 2) {
         if crossProduct(p0: points[i], p1: points[i + 1], p2: points[i + 2]) == 0 {
             print("Error: the shape intersects with itself. Points do not form a polyon.")
