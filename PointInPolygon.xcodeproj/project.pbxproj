@@ -28,7 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A14DBA392AA773CC00D2BD6B /* LillyTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LillyTask; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14DBA392AA773CC00D2BD6B /* PointInPolygon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PointInPolygon; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14DBA3C2AA773CC00D2BD6B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A14DBA432AA7814700D2BD6B /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 		A14DBA452AA7815400D2BD6B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		A14DBA302AA773CC00D2BD6B = {
 			isa = PBXGroup;
 			children = (
-				A14DBA3B2AA773CC00D2BD6B /* LillyTask */,
+				A14DBA3B2AA773CC00D2BD6B /* PointInPolygon */,
 				A14DBA3A2AA773CC00D2BD6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,19 +59,19 @@
 		A14DBA3A2AA773CC00D2BD6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A14DBA392AA773CC00D2BD6B /* LillyTask */,
+				A14DBA392AA773CC00D2BD6B /* PointInPolygon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A14DBA3B2AA773CC00D2BD6B /* LillyTask */ = {
+		A14DBA3B2AA773CC00D2BD6B /* PointInPolygon */ = {
 			isa = PBXGroup;
 			children = (
 				A14DBA4C2AA7820200D2BD6B /* Data */,
 				A14DBA4B2AA781F500D2BD6B /* Utils */,
 				A14DBA3C2AA773CC00D2BD6B /* main.swift */,
 			);
-			path = LillyTask;
+			path = PointInPolygon;
 			sourceTree = "<group>";
 		};
 		A14DBA4B2AA781F500D2BD6B /* Utils */ = {
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A14DBA382AA773CC00D2BD6B /* LillyTask */ = {
+		A14DBA382AA773CC00D2BD6B /* PointInPolygon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A14DBA402AA773CC00D2BD6B /* Build configuration list for PBXNativeTarget "LillyTask" */;
+			buildConfigurationList = A14DBA402AA773CC00D2BD6B /* Build configuration list for PBXNativeTarget "PointInPolygon" */;
 			buildPhases = (
 				A14DBA352AA773CC00D2BD6B /* Sources */,
 				A14DBA362AA773CC00D2BD6B /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = LillyTask;
+			name = PointInPolygon;
 			productName = LillyTask;
-			productReference = A14DBA392AA773CC00D2BD6B /* LillyTask */;
+			productReference = A14DBA392AA773CC00D2BD6B /* PointInPolygon */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A14DBA342AA773CC00D2BD6B /* Build configuration list for PBXProject "LillyTask" */;
+			buildConfigurationList = A14DBA342AA773CC00D2BD6B /* Build configuration list for PBXProject "PointInPolygon" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A14DBA382AA773CC00D2BD6B /* LillyTask */,
+				A14DBA382AA773CC00D2BD6B /* PointInPolygon */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A14DBA342AA773CC00D2BD6B /* Build configuration list for PBXProject "LillyTask" */ = {
+		A14DBA342AA773CC00D2BD6B /* Build configuration list for PBXProject "PointInPolygon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A14DBA3E2AA773CC00D2BD6B /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A14DBA402AA773CC00D2BD6B /* Build configuration list for PBXNativeTarget "LillyTask" */ = {
+		A14DBA402AA773CC00D2BD6B /* Build configuration list for PBXNativeTarget "PointInPolygon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A14DBA412AA773CC00D2BD6B /* Debug */,
